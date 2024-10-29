@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBg9gPeCXPd_ik0d7MkcGzbLU5KoUa4ERM</string>
+	<string>AIzaSyDNBNBRdURqwJYFIwgx9CXWIO-NnYg6EjM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1056244265852</string>
+	<string>1081956941081</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.SweetSensation</string>
+	<string>com.EvaElfClub</string>
 	<key>PROJECT_ID</key>
-	<string>sensation-c84d9</string>
+	<string>evaelfclub</string>
 	<key>STORAGE_BUCKET</key>
-	<string>sensation-c84d9.appspot.com</string>
+	<string>evaelfclub.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1056244265852:ios:4a2b439ce86de2e7456af9</string>
+	<string>1:1081956941081:ios:abd853f62cfb44ca469988</string>
 </dict>
 </plist>
