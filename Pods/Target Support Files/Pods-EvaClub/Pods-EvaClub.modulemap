@@ -1,0 +1,6 @@
+framework module Pods_EvaClub {
+  umbrella header "Pods-EvaClub-umbrella.h"
+
+  export *
+  module * { export * }
+}
