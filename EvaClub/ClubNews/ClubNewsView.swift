@@ -10,6 +10,8 @@ import SwiftUI
 struct ClubNewsView: View {
     
     @State var news: [News] = []
+    @State var isQRShown = false
+    @State var isMenuShown = false
     
     var body: some View {
         NavigationStack {
@@ -20,13 +22,63 @@ struct ClubNewsView: View {
                 
                 VStack {
                     HStack {
-                        Text("CLUB NEWS")
+                        Text("CLUB SERVICE")
                             .foregroundStyle(.white)
                             .font(.system(size: 34, weight: .black))
                         
                         Spacer()
                     }
                     .padding(.horizontal, 30)
+                    
+                    
+                    HStack(spacing: 20) {
+                        Button {
+                            isQRShown.toggle()
+                        } label: {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 28)
+                                    .fill(LinearGradient(colors: [.buttonOrangeDark, .buttonOrangeLight], startPoint: .leading, endPoint: .trailing))
+                                    .opacity(0.8)
+                                VStack {
+                                    Image("qrIcon")
+                                        .resizable()
+                                        .frame(width: 50, height: 50)
+                                        .colorInvert()
+                                    
+                                    Text("QR")
+                                        .foregroundStyle(.white)
+                                        .font(.system(size: 28, weight: .black))
+                                }
+                               
+                            }
+                            
+                        }
+                        .frame(width: 150, height: 150)
+                        
+                        Button {
+                            isMenuShown.toggle()
+                        } label: {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 28)
+                                    .fill(LinearGradient(colors: [.buttonOrangeDark, .buttonOrangeLight], startPoint: .trailing, endPoint: .leading))
+                                    .opacity(0.8)
+                                VStack {
+                                    Image("drinkIcon")
+                                        .resizable()
+                                        .frame(width: 50, height: 50)
+                                        .colorInvert()
+                                    
+                                    Text("MENU")
+                                        .foregroundStyle(.white)
+                                        .font(.system(size: 28, weight: .black))
+                                }
+                                
+                            }
+                        }
+                        .frame(width: 150, height: 150)
+                    }
+                    .padding(.top, 30)
+                    .padding(.bottom, 30)
                     
                     ScrollView {
                         VStack {
@@ -92,6 +144,17 @@ struct ClubNewsView: View {
                 }
             }
         }
+        .fullScreenCover(isPresented: $isQRShown, content: {
+            QRView()
+        })
+        .fullScreenCover(isPresented: $isMenuShown, content: {
+            MenuView() {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    StorageManager.shared.deleteCart()
+                }
+            }
+        })
+
     }
 }
 

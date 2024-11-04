@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TabMainView: View {
     
-    @State private var current = "Main"
+    @State private var current = "News"
     @State private var isTabBarShown = true
     @EnvironmentObject var authViewModel: AuthViewModel
     @State private var isOnboardingShown = false

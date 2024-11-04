@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		269CA85F47E54FC50FB86133 /* Pods_EvaClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E1E0EFC8AAE64B586D4C95 /* Pods_EvaClub.framework */; };
+		64191B712CD7AF4A006EF91B /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64191B702CD7AF4A006EF91B /* QRView.swift */; };
+		64191B742CD7B373006EF91B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64191B732CD7B373006EF91B /* MenuView.swift */; };
+		64191B762CD7B56A006EF91B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 64191B752CD7B56A006EF91B /* menu.json */; };
 		6427D5832CC7C1360014CA2D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6427D5822CC7C1360014CA2D /* LoginView.swift */; };
+		6439F9CC2CD8DC0900CE57F3 /* RealmCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6439F9CB2CD8DC0900CE57F3 /* RealmCart.swift */; };
 		64435B1D2CCAB8F100F79497 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64435B1C2CCAB8F100F79497 /* SigninView.swift */; };
 		64435B202CCAB9B200F79497 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64435B1F2CCAB9B200F79497 /* WelcomeView.swift */; };
 		64435B232CCABB9C00F79497 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64435B222CCABB9C00F79497 /* MainView.swift */; };
@@ -44,7 +48,11 @@
 /* Begin PBXFileReference section */
 		27E1E0EFC8AAE64B586D4C95 /* Pods_EvaClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvaClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B4C547DA026544795E6555 /* Pods-EvaClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvaClub.debug.xcconfig"; path = "Target Support Files/Pods-EvaClub/Pods-EvaClub.debug.xcconfig"; sourceTree = "<group>"; };
+		64191B702CD7AF4A006EF91B /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
+		64191B732CD7B373006EF91B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		64191B752CD7B56A006EF91B /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		6427D5822CC7C1360014CA2D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6439F9CB2CD8DC0900CE57F3 /* RealmCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCart.swift; sourceTree = "<group>"; };
 		64435B1C2CCAB8F100F79497 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		64435B1F2CCAB9B200F79497 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		64435B222CCABB9C00F79497 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -92,6 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64191B6F2CD7AF46006EF91B /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				64191B702CD7AF4A006EF91B /* QRView.swift */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		64191B722CD7B36B006EF91B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				64191B732CD7B373006EF91B /* MenuView.swift */,
+				64191B752CD7B56A006EF91B /* menu.json */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		6427D5802CC7C11E0014CA2D /* APP */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +228,7 @@
 				64435B3D2CCB8E2500F79497 /* News.swift */,
 				647ECA762CCFAF7A004F8A69 /* RealmUser.swift */,
 				64CF20DE2CD0F85900DF3057 /* RealmMessages.swift */,
+				6439F9CB2CD8DC0900CE57F3 /* RealmCart.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -244,6 +270,8 @@
 		64FA00AB2CC691DE0063B1C9 /* EvaClub */ = {
 			isa = PBXGroup;
 			children = (
+				64191B722CD7B36B006EF91B /* Menu */,
+				64191B6F2CD7AF46006EF91B /* QR */,
 				64CF20E22CD141DD00DF3057 /* GoogleService-Info.plist */,
 				64435B422CCBA01600F79497 /* Pass */,
 				64435B3F2CCB96FC00F79497 /* Root */,
@@ -354,6 +382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64191B762CD7B56A006EF91B /* menu.json in Resources */,
 				64FA00B62CC691DF0063B1C9 /* Assets.xcassets in Resources */,
 				64CF20E32CD141DD00DF3057 /* GoogleService-Info.plist in Resources */,
 				64FA00B92CC691DF0063B1C9 /* Base in Resources */,
@@ -417,15 +446,18 @@
 				64CF20DF2CD0F85900DF3057 /* RealmMessages.swift in Sources */,
 				647ECA772CCFAF7A004F8A69 /* RealmUser.swift in Sources */,
 				64435B322CCAC38700F79497 /* ProfileView.swift in Sources */,
+				6439F9CC2CD8DC0900CE57F3 /* RealmCart.swift in Sources */,
 				64435B2C2CCAC17100F79497 /* AddFriendView.swift in Sources */,
 				647ECA7B2CCFB218004F8A69 /* DataManager.swift in Sources */,
 				64435B232CCABB9C00F79497 /* MainView.swift in Sources */,
 				64435B3B2CCB8DFD00F79497 /* NetworkManager.swift in Sources */,
 				64FA00AD2CC691DE0063B1C9 /* AppDelegate.swift in Sources */,
 				64435B442CCBA01E00F79497 /* PassView.swift in Sources */,
+				64191B712CD7AF4A006EF91B /* QRView.swift in Sources */,
 				64435B1D2CCAB8F100F79497 /* SigninView.swift in Sources */,
 				64FA00AF2CC691DE0063B1C9 /* SceneDelegate.swift in Sources */,
 				64435B352CCAC41F00F79497 /* SettingsView.swift in Sources */,
+				64191B742CD7B373006EF91B /* MenuView.swift in Sources */,
 				6427D5832CC7C1360014CA2D /* LoginView.swift in Sources */,
 				647ECA792CCFAFA9004F8A69 /* StorageManager.swift in Sources */,
 				64435B2F2CCAC25800F79497 /* AddFriendDetailView.swift in Sources */,
@@ -588,9 +620,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K6WM5M29R2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EvaClub/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Eva Elf Club";
@@ -606,8 +638,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.EvaElfClub;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EvaElfClub123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -627,9 +659,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = K6WM5M29R2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EvaClub/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Eva Elf Club";
@@ -645,8 +677,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.EvaElfClub;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EvaElfClub123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

@@ -1,0 +1,94 @@
+
+
+[
+  {
+    "name": "Midnight Berry Rush",
+    "description": "A blend of blackberries, blueberries, and raspberries with a hint of mint and a splash of soda.",
+    "price": "8",
+    "image_prompt": "d1"
+  },
+  {
+    "name": "Electric Lemonade",
+    "description": "Freshly squeezed lemon juice, blue curaçao syrup (non-alcoholic), and soda, garnished with a lemon wheel and a cherry.",
+    "price": "7",
+    "image_prompt": "d2"
+  },
+  {
+    "name": "Tropical Night",
+    "description": "Pineapple juice, coconut cream, and a splash of grenadine, creating a beautiful sunset effect.",
+    "price": "9",
+    "image_prompt": "d3"
+  },
+  {
+    "name": "Glow in the Dark Mojito",
+    "description": "Classic mojito with lime, mint, and soda, but with a neon green glow-in-the-dark twist (edible UV-reactive ingredients).",
+    "price": "10",
+    "image_prompt": "d4"
+  },
+  {
+    "name": "Berry Bliss Fizz",
+    "description": "A mix of strawberry purée, hibiscus tea, and sparkling water with a basil leaf garnish.",
+    "price": "7",
+    "image_prompt": "d5"
+  },
+  {
+    "name": "Citrus Galaxy",
+    "description": "Grapefruit, lime, and orange juices with tonic water, creating a layered cosmic look.",
+    "price": "8",
+    "image_prompt": "d6"
+  },
+  {
+    "name": "Mystic Mint Cooler",
+    "description": "Cucumber, lime, and mint juice mixed with tonic, served ice-cold for a refreshing effect.",
+    "price": "8",
+    "image_prompt": "d7"
+  },
+  {
+    "name": "Fire & Ice",
+    "description": "A spicy ginger brew with hints of chili, balanced with cucumber and lime for a hot-cold sensation.",
+    "price": "9",
+    "image_prompt": "d8"
+  },
+  {
+    "name": "Ocean Breeze",
+    "description": "Blueberry and peach juices with soda, creating a deep blue, tropical feel.",
+    "price": "7",
+    "image_prompt": "d9"
+  },
+  {
+    "name": "Aurora Elixir",
+    "description": "Apple, lime, and green tea blend with edible glitter for a magical shimmering effect.",
+    "price": "10",
+    "image_prompt": "d10"
+  },
+  {
+    "name": "Sunset Bliss",
+    "description": "Mango, orange, and a dash of cranberry juice, creating a layered sunset gradient.",
+    "price": "8",
+    "image_prompt": "d11"
+  },
+  {
+    "name": "Neon Peach Punch",
+    "description": "Peach purée, passionfruit juice, and sparkling water with edible neon powder.",
+    "price": "9",
+    "image_prompt": "d12"
+  },
+  {
+    "name": "Frozen Forest",
+    "description": "Pine and rosemary syrup with lime and sparkling water, creating a cool, earthy flavor.",
+    "price": "8",
+    "image_prompt": "d13"
+  },
+  {
+    "name": "Starry Night Lemonade",
+    "description": "Lemon juice and lavender syrup, topped with sparkling water and star-shaped ice cubes.",
+    "price": "7",
+    "image_prompt": "d14"
+  },
+  {
+    "name": "Ruby Refresher",
+    "description": "Pomegranate juice, cranberry, and a dash of lemon, garnished with a rosemary sprig.",
+    "price": "8",
+    "image_prompt": "d15"
+  }
+]

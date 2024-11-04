@@ -302,6 +302,7 @@ struct MainView: View {
         .fullScreenCover(isPresented: $isChatShown) {
             ChatDetailView()
         }
+        
     }
 }
 
